@@ -1,5 +1,6 @@
 ## Overview
-[![Build Status](https://travis-ci.org/TomokiEmmei/kadai.svg?branch=master)](https://travis-ci.org/TomokiEmmei/kadai)Multiplication or addition table can be created by 
+[![Build Status](https://travis-ci.org/TomokiEmmei/kadai.svg?branch=master)](https://travis-ci.org/TomokiEmmei/kadai)
+Multiplication or addition table can be created by 
 ## Requirements
 - python3.x
 ## How to install
@@ -10,11 +11,16 @@
 4. Multiplication (addition) table  $[1...X]\times(+)[1...Y]$ will be shown
 
 ## Quick start
-![execute](images/h2u.PNG "Execute "python multiplication.py" with  argument "a" (addition table) or "m" (multiplication table)")
+Execute "python multiplication.py" with  argument "a" (addition table) or "m" (multiplication table)
+![execute](images/h2u.PNG )
 
-![multi_table](images/multiplication.PNG "Multiplication table")
+Multiplication table
 
-![add_table](images/addition.PNG "Addition table")
+![multi_table](images/multiplication.PNG )
+
+"Addition table
+
+![add_table](images/addition.PNG)
 
 ## license
 MIT
