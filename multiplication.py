@@ -1,19 +1,26 @@
 import sys #read command line argument
-import unittest
+#import unittest
+#import numpy
 
 def kakezan(a,b):
 # Display the multiplication table
-	for i in range(1,b+1):
-		for j in range(1,a+1):
-			print(i*j, end=' ')
-		print()
-
+    Seki_tab=[[0 for i in range(a)] for j in range(b)]
+    for i in range(1,b+1):
+        for j in range(1,a+1):
+            print(i*j, end=' ')
+            Seki_tab[i-1][j-1]=i*j
+        print()
+    return Seki_tab
+    
 def tashizan(a,b):
 # Display the addition table
-	for i in range(1,b+1):
-		for j in range(1,a+1):
-			print(i+j, end=' ')
-		print()
+    Wa_tab=[[0 for i in range(a)] for j in range(b)]
+    for i in range(1,b+1):
+        for j in range(1,a+1):
+            print(i+j, end=' ')
+            Wa_tab[i-1][j-1]=i+j
+        print()
+    return Wa_tab
 
 def main():
 #command line argument
@@ -22,7 +29,6 @@ def main():
     #load numbers from command line
     x=int(input('x: '))
     y=int(input('y: '))
-    print(2)
     if args == 'm':
         kakezan(x,y)
     else:
