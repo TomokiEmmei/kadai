@@ -1,6 +1,4 @@
 import sys #read command line argument
-#import unittest
-#import numpy
 
 def kakezan(a,b):
 # Display the multiplication table
