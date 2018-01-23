@@ -5,4 +5,5 @@ python:
   - "3.6"
 # command to run tests
 script:
+   - python --version
    - ./runfile.sh
