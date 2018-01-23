@@ -1,5 +1,5 @@
 import unittest
-import multiplication
+from myapp import multiplication
 
 class TestTable(unittest.TestCase):
 
