@@ -6,4 +6,4 @@ python:
 # command to run tests
 script:
    - python --version
-   - ./runfile.sh
+   - chmod 755 runfile.sh
