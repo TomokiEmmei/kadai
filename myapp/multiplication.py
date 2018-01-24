@@ -9,7 +9,7 @@ def kakezan(a,b):
             Seki_tab[i-1][j-1]=i*j
         print()
     return Seki_tab
-    
+
 def tashizan(a,b):
 # Display the addition table
     Wa_tab=[[0 for i in range(a)] for j in range(b)]
@@ -25,12 +25,16 @@ def main():
 # 'a' = addition 'm' = multipulication
     args = sys.argv[1]
     #load numbers from command line
-    x=int(input('x: '))
-    y=int(input('y: '))
     if args == 'm':
+        x=int(input('x: '))
+        y=int(input('y: '))
         kakezan(x,y)
-    else:
+    elif args == "a":
+        x=int(input('x: '))
+        y=int(input('y: '))
         tashizan(x,y)
-        
+    else:
+        print('Caution: argument is a or m') # add the exception handling
+
 if __name__ == '__main__':
     main()
