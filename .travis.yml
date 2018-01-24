@@ -6,4 +6,4 @@ python:
 # command to run tests
 script:
    - python --version
-   - bash runfile.sh
+   - bash runfile.sh # this app did not work in case ./ is used

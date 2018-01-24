@@ -9,7 +9,7 @@ Multiplication (or addition) table can be created by this program
 
 ## How to install
 1. Clone this repository
-2. Install this app by the following order: "pip install dist\multiplication-1.0-py3-none-any.whl "
+2. Install this app by the following order: "pip install dist/multiplication-1.0-py3-none-any.whl "
 ## How to use
 1. Install multiplication.py
 2. Execute "multiplication" with  argument "a" (addition table) or "m" (multiplication table)
