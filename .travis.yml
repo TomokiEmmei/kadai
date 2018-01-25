@@ -3,7 +3,6 @@ python:
   - "3.4"
   - "3.5"
   - "3.6"
-# command to run tests
 script:
    - python --version
-   - bash runfile.sh # this app did not work in case ./ is used
+   - bash runfile.sh # execute runfile.sh
