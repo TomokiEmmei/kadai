@@ -1,3 +1,4 @@
+# Kadai: Multiplication
 [![Build Status](https://travis-ci.org/TomokiEmmei/kadai.svg?branch=master)](https://travis-ci.org/TomokiEmmei/kadai)
 
 ## Overview
