@@ -23,6 +23,7 @@ $ multiplication m
 4. Multiplication (addition) table  $[1...x]\times(+)[1...y]$ will be shown
 
 ## Quick start
+Start the program and input two numbers.
 
 ![execute](images/h2u.PNG )
 
